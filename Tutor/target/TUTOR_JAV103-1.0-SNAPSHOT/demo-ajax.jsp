@@ -22,7 +22,7 @@
                         "Mã GV: " + response.ma
                         + " Tên: " + response.ten
                         + " Tuổi: " + response.tuoi
-                        + " Giới tính: " + (response.gioiTinh? "Nam":"Nữ")
+                        + " Giới tính: " + (response.gioiTinh? "Nữ":"Nam")
                         + " Bộ môn: " + response.boMon
                 },
                 error: function (){

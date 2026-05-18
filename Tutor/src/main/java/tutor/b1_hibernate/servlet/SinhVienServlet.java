@@ -68,6 +68,7 @@ public class SinhVienServlet extends HttpServlet {
     private void update(HttpServletRequest req, HttpServletResponse resp) {
         SinhVien sv= new SinhVien();
         BeanUtils.populate(sv, req.getParameterMap());
+//        Integer id = Integer.parseInt( req.getParameter("id"));
 //        String ma = req.getParameter("ma");
 //        String ten = req.getParameter("ten");
 //        Integer tuoi = Integer.parseInt( req.getParameter("tuoi"));
@@ -78,6 +79,7 @@ public class SinhVienServlet extends HttpServlet {
         Lop lop = lopRepo.getOne(lopId);
         sv.setLop(lop);
 //        SinhVien sv= SinhVien.builder()
+//                .id(id)
 //                .ma(ma)
 //                .ten(ten)
 //                .tuoi(tuoi)

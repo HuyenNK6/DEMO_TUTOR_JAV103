@@ -13,6 +13,7 @@
 </head>
 <body>
 <form action="/sinh-vien/update" method="post">
+    Mã: <input type="text" name="id" value="${sv.id}"> <br/>
     Mã: <input type="text" name="ma" value="${sv.ma}"> <br/>
     Tên: <input type="text" name="ten" value="${sv.ten}"> <br/>
     Tuổi: <input type="text" name="tuoi" value="${sv.tuoi}"> <br/>
